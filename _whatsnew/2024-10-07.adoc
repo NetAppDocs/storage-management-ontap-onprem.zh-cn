@@ -1,0 +1,17 @@
+= 支持ASA r2 系统
+:allow-uri-read: 
+
+
+
+
+=== 支持ASA r2 系统
+
+现在，在标准模式或受限模式下使用BlueXP时，您可以在BlueXP中发现NetApp ASA r2 系统。发现NetApp ASA r2 系统并打开工作环境后，您将直接进入系统管理器。
+
+ASA r2 系统没有其他可用的管理选项。您无法使用标准视图，也无法启用BlueXP服务。
+
+在私人模式下使用BlueXP时不支持发现ASA r2 系统。
+
+* https://docs.netapp.com/us-en/asa-r2/index.html["了解有关ASA r2 系统的更多信息"^]
+* https://docs.netapp.com/us-en/console-setup-admin/concept-modes.html["了解BlueXP部署模式"^]
+

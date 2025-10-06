@@ -1,0 +1,55 @@
+---
+sidebar: sidebar 
+permalink: task-manage-ontap-direct.html 
+keywords: direct discovery, direct, system manager, local, local discovery, 
+summary: 如果您未使用NetApp控制台代理而直接发现了本地ONTAP集群，则可以在NetApp控制台中打开系统，使用ONTAP系统管理器来管理集群。 
+---
+= 管理直接在NetApp控制台中发现的集群
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+如果您不使用控制台代理而直接发现了本地ONTAP集群，则可以在控制台中打开系统来管理集群并访问ONTAP系统管理器。
+
+.所需的控制台角色：
+存储管理员或系统健康专家。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解控制台访问角色。"^]
+
+.开始之前
+用于访问控制台的计算机必须与本地ONTAP集群建立网络连接，类似于您与私有网络中的其他资源建立连接的方式。
+
+.限制
+控制台不支持一些系统管理器功能。
+
+link:reference-limitations.html["查看限制列表"] 。
+
+.步骤
+. 在“*系统*”页面上，选择本地ONTAP系统。
++
+系统图标标识直接发现的集群：
+
++
+image:screenshot-direct-discovery-we.png["系统页面上显示的系统图标的屏幕截图"]
+
+. 如果出现提示，请输入您的ONTAP凭据。
++
+除非您保存凭据，否则每次打开系统时，系统都会提示您使用ONTAP凭据登录。您可以选择保存凭据，这样就无需每次都输入。您可以在“用户凭据”页面上管理这些凭据。在某些情况下，您的控制台管理员（具有组织管理员角色）可能已禁用此选项并要求您每次都输入您的凭据。
+
++
+image:screenshot-credentials.png["显示输入ONTAP集群的用户名和密码的提示的屏幕截图。"]
+
+. 使用系统管理器管理ONTAP。
++
+如果您需要帮助使用带有ONTAP的 System Manager，您可以参考 https://docs.netapp.com/us-en/ontap/index.html["ONTAP 文档"^]以获得分步说明。以下链接提供了更多指导：
+
++
+** https://docs.netapp.com/us-en/ontap/volume-admin-overview-concept.html["卷和 LUN 管理"^]
+** https://docs.netapp.com/us-en/ontap/network-manage-overview-concept.html["网管"^]
+** https://docs.netapp.com/us-en/ontap/concept_dp_overview.html["数据保护"^]
+
+
+

@@ -1,0 +1,50 @@
+---
+settings:
+  name: On-premises ONTAP clusters
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: zh-cn,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-tw
+sidebar:
+  entries:
+  - title: NetApp控制台中的本地ONTAP集群
+    url: "/index.html"
+  - title: 发行说明
+    entries:
+    - title: 什么是新的
+      url: "/whats-new.html"
+    - title: 已知限制
+      url: "/reference-limitations.html"
+  - title: 开始使用
+    entries:
+    - title: 了解本地ONTAP集群管理
+      url: "/concept-onprem-ontap.html"
+    - title: 发现本地ONTAP集群
+      url: "/task-discovering-ontap.html"
+  - title: 管理本地ONTAP集群
+    entries:
+    - title: 管理直接发现的集群
+      url: "/task-manage-ontap-direct.html"
+    - title: 管理使用控制台代理发现的集群
+      url: "/task-manage-ontap-connector.html"
+    - title: 查看集群信息和合同详情
+      url: "/task-view-cluster-info.html"
+    - title: 使用NetApp Digital Advisor优化集群
+      url: "/concept-aiq-digital-advisor.html"
+    - title: 删除本地ONTAP系统
+      url: "/task-remove-on-prem.html"
+  - title: 知识和支持
+    entries:
+    - title: 注册以获得支持
+      url: "/task-support-registration.html"
+    - title: 获取帮助
+      url: "/task-get-help.html"
+  - title: 法律声明
+    url: "/legal-notices.html"
+product-family:
+  name: Storage management
+  repo: storage-management-family

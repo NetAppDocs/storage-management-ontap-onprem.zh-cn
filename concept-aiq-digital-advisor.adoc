@@ -1,0 +1,43 @@
+---
+sidebar: sidebar 
+permalink: concept-aiq-digital-advisor.html 
+keywords: concepts, active iq digital advisor, ontap 
+summary: 数字顾问使您能够优化ONTAP集群的操作、安全性和性能。 
+---
+= 使用NetApp Digital Advisor优化集群
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp Digital Advisor 使您能够优化ONTAP集群的操作、安全性和性能。
+
+
+
+== 功能
+
+您可以使用Digital Advisor查看存储系统的整体状态、有关系统健康状况的高级信息、库存、计划、升级以及监视列表级别的宝贵见解。
+
+* 分析并优化存储系统的健康状况
+* 深入了解存储系统的所有风险以及降低风险的措施
+* 通过查看性能数据的图形格式来分析存储设备的性能
+* 获取有关容量超过 90% 或接近 90% 的系统的详细信息
+* 获取有关未来 6 个月内已过期或即将过期的硬件和软件的信息
+* 使用 Ansible 升级存储系统软件并更新ONTAP固件
+
+
+
+
+== 支持的ONTAP系统
+
+Digital Advisor提供与您的NetApp支持站点 (NSS) 帐户关联的所有本地ONTAP系统和Cloud Volumes ONTAP系统的信息。
+
+
+
+== 更多信息
+
+https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html["Digital Advisor文档"^]

@@ -1,0 +1,9 @@
+= 需要BlueXP访问角色
+:allow-uri-read: 
+
+
+
+
+=== 需要BlueXP访问角色
+
+现在，您需要以下访问角色之一来查看、发现或管理本地ONTAP集群：组织管理员、文件夹或项目管理员、存储管理员或系统健康专家。 link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解访问角色。"^]

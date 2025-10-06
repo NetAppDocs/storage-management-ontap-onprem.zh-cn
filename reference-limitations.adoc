@@ -1,0 +1,68 @@
+---
+sidebar: sidebar 
+permalink: reference-limitations.html 
+keywords: limitations, system manager, unsupported features, on-premises ONTAP in NetApp Console 
+summary: 已知限制标识了该产品的此版本不支持或不能与其正确互操作的平台、设备或功能。仔细审查这些限制。 
+---
+= 在NetApp控制台中管理本地ONTAP集群的已知限制
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+已知限制标识了该产品的此版本不支持或不能与其正确互操作的平台、设备或功能。仔细审查这些限制。
+
+
+
+== 与ASA r2 系统相关的限制
+
+发现NetApp ASA r2 系统后，您将被定向到系统管理器。
+
+ASA r2 系统没有其他可用的管理选项。您无法使用标准视图，也无法启用NetApp数据服务。
+
+https://docs.netapp.com/us-en/asa-r2/index.html["了解有关ASA r2 系统的更多信息"^]
+
+
+
+== 不受支持的集群
+
+控制台不支持配置了 SAML 身份验证的本地ONTAP集群。
+
+
+
+== 系统管理器限制
+
+控制台不支持以下系统管理器功能：
+
+* 集群设置
++
+在本地ONTAP集群上设置管理 IP 地址并配置管理员密码后，您可以在控制台中发现该集群。
+
+* 基于角色的访问控制（仅限控制台代理）
++
+使用控制台代理发现和管理本地ONTAP集群时，系统管理器不支持基于角色的访问控制。在发现过程中，系统会提示您输入管理员凭据。这些凭证用于系统管理器采取的所有操作。
+
++
+使用直接发现选项，每次在控制台中打开系统时，系统都会提示您使用ONTAP凭据登录。
+
+* NetApp备份和恢复激活
++
+集群版本必须为 9.13.1 才能从系统管理器启用备份和恢复。
+
++
+如果您没有使用控制台代理发现集群，那么您就无法使用系统管理器（高级视图）来启用备份和恢复。但是，您可以直接从控制台在本地集群上启用备份和恢复。 https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["了解如何开始"^]
+
+* 按需升级
++
+如果集群版本为ONTAP 9.9.1 或更早版本，则无法按需升级固件和软件。
+
++
+如果您没有控制台代理，则无法从本地计算机进行更新，只能从可使用控制台访问的服务器进行更新。
+
+* 全局搜索
+* 用户界面设置
+

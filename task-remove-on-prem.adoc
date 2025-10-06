@@ -1,0 +1,29 @@
+---
+sidebar: sidebar 
+permalink: task-remove-on-prem.html 
+keywords: ontap, cluster, remove, delete, remove ontap cluster, remove onprem, delete cluster, delete working environment, remove working environment, storage admin, netapp console, console remove system 
+summary: 如果您不再想从NetApp控制台管理本地ONTAP系统，请将其删除。 
+---
+= 从NetApp控制台中删除本地ONTAP系统
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+如果您不再想从控制台管理本地ONTAP系统，请将其删除。
+
+.所需的控制台角色：
+存储管理员。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解NetApp控制台访问角色。"^]
+
+删除系统不会影响ONTAP集群。您可以随时从控制台重新发现它。
+
+.步骤
+. 从导航菜单中，选择*存储>管理*。
+. 在“*系统*”页面上选择本地ONTAP系统。
+. 选择菜单图标并选择*从工作区中删除*。
+. 选择*删除*进行确认。
+
