@@ -14,9 +14,9 @@ summary: 如果您使用控制台代理发现了本地ONTAP集群，则可以从
 
 
 [role="lead"]
-如果您使用控制台代理发现了本地ONTAP集群，则可以直接从NetApp控制台创建卷，访问ONTAP系统管理器（直接从控制台）进行高级管理，并启用NetApp数据服务。
+如果您使用控制台代理发现了本地ONTAP集群，则可以直接从NetApp Console创建卷，访问ONTAP系统管理器（直接从控制台）进行高级管理，并启用NetApp数据服务。
 
-.所需的NetApp控制台角色：
+.所需的NetApp Console角色：
 存储管理员或系统健康专家。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解控制台访问角色。"^]
 
 在“*系统*”页面上，您使用控制台代理发现的集群的系统图标类似于以下内容：
@@ -27,7 +27,7 @@ image:screenshot-connector-we.png["使用控制台代理发现集群时出现的
 
 
 
-== 从NetApp控制台创建FlexVol卷
+== 从NetApp Console创建FlexVol卷
 
 使用控制台代理将本地ONTAP集群添加到控制台后，您可以直接从控制台配置和管理FlexVol卷。
 
@@ -80,9 +80,9 @@ image:screenshot-connector-we.png["使用控制台代理发现集群时出现的
 
 
 
-== 使用NetApp控制台 API 创建FlexGroup卷
+== 使用NetApp ConsoleAPI 创建FlexGroup卷
 
-您可以使用NetApp控制台 API 来创建FlexGroup卷。  FlexGroup卷是一种横向扩展卷，可提供高性能以及自动负载分配。
+您可以使用NetApp ConsoleAPI 来创建FlexGroup卷。  FlexGroup卷是一种横向扩展卷，可提供高性能以及自动负载分配。
 
 * https://docs.netapp.com/us-en/bluexp-automation/cm/wf_onprem_flexgroup_ontap_create_vol.html["了解如何使用 API 创建FlexGroup卷"^]
 * https://docs.netapp.com/us-en/ontap/flexgroup/definition-concept.html["了解什么是FlexGroup卷"^]
@@ -90,7 +90,7 @@ image:screenshot-connector-we.png["使用控制台代理发现集群时出现的
 
 
 
-== 从NetApp控制台访问ONTAP系统管理器
+== 从NetApp Console访问ONTAP系统管理器
 
 您可以直接在控制台内访问ONTAP系统管理器界面。
 
@@ -140,7 +140,7 @@ link:reference-limitations.html["查看限制列表"] 。
 
 
 
-=== 从NetApp控制台访问ONTAP系统管理器
+=== 从NetApp Console访问ONTAP系统管理器
 
 打开系统的系统管理器。
 
@@ -175,25 +175,25 @@ image:screenshot-standard-view.png["本地ONTAP系统的屏幕截图，其中显
 复制数据:: 在Cloud Volumes ONTAP系统、 Amazon FSx for ONTAP文件系统和ONTAP集群之间复制数据。选择一次性数据复制，这可以帮助您将数据移入和移出云端，或者选择定期计划，这可以帮助灾难恢复或长期数据保留。
 +
 --
-https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["NetApp复制文档"^]
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["NetApp Replication文档"^]
 
 --
 备份数据:: 将数据从本地ONTAP系统备份到云中的低成本对象存储。
 +
 --
-https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-backup-to-cloud.html["NetApp备份和恢复文档"^]
+https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-backup-to-cloud.html["NetApp Backup and Recovery文档"^]
 
 --
 扫描、映射和分类您的数据:: 扫描您的企业内部集群以映射和分类数据并识别私人信息。这可以帮助降低您的安全和合规风险，降低存储成本，并协助您的数据迁移项目。
 +
 --
-https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["NetApp数据分类文档"^]
+https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["NetApp Data Classification文档"^]
 
 --
 将数据分层到云:: 通过自动将非活动数据从ONTAP集群分层到对象存储，将您的数据中心扩展到云。
 +
 --
-https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["NetApp Cloud Tiering 文档"^]
+https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["NetApp Cloud Tiering文档"^]
 
 --
 识别容量较低的集群:: 识别容量较低的集群并检查其当前和预测容量。

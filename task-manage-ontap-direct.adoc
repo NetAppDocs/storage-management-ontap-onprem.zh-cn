@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-manage-ontap-direct.html 
 keywords: direct discovery, direct, system manager, local, local discovery, 
-summary: 如果您未使用NetApp控制台代理而直接发现了本地ONTAP集群，则可以在NetApp控制台中打开系统，使用ONTAP系统管理器来管理集群。 
+summary: 如果您未使用NetApp Console代理而直接发现了本地ONTAP集群，则可以在NetApp Console中打开系统，使用ONTAP系统管理器来管理集群。 
 ---
-= 管理直接在NetApp控制台中发现的集群
+= 管理直接在NetApp Console中发现的集群
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

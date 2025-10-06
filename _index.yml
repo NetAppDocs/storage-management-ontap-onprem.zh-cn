@@ -1,9 +1,9 @@
 ---
 indexpage:
-  title: 使用NetApp控制台进行本地ONTAP集群管理
-  summary: 从NetApp控制台管理您的NetApp AFF和FAS系统，以配置存储、复制数据和配置关键的基于云的数据服务。
+  title: 使用NetApp Console进行本地ONTAP集群管理
+  summary: 从NetApp Console管理您的NetApp AFF和FAS系统，以配置存储、复制数据和配置关键的基于云的数据服务。
   keywords: bluexp, netapp console, ontap, discover onprem
-  lead: 从NetApp控制台管理您的NetApp AFF和FAS系统，以配置存储、复制数据和配置关键的基于云的数据服务。
+  lead: 从NetApp Console管理您的NetApp AFF和FAS系统，以配置存储、复制数据和配置关键的基于云的数据服务。
   tiles:
   - title: 开始使用
     links:
@@ -11,7 +11,7 @@ indexpage:
       url: concept-onprem-ontap.html
     - title: 发现ONTAP集群
       url: task-discovering-ontap.html
-  - title: 在NetApp控制台中管理本地ONTAP集群
+  - title: 在NetApp Console中管理本地ONTAP集群
     links:
     - title: 管理直接发现的集群
       url: task-manage-ontap-direct.html
@@ -19,9 +19,9 @@ indexpage:
       url: task-manage-ontap-connector.html
   - title: 博客和社区
     links:
-    - title: NetApp控制台
+    - title: NetApp Console
       url: https://www.netapp.com/console
-    - title: NetApp数据服务
+    - title: NetApp Data Services
       url: https://www.netapp.com/data-services/
     - title: NetApp 社区
       url: https://community.netapp.com/

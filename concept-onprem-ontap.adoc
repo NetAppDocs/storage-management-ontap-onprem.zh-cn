@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concept-onprem-ontap.html 
 keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, digital wallet, subscriptios, licenses, bluexp 
-summary: 您可以从NetApp控制台管理在AFF/ FAS控制器和ONTAP Select上运行的ONTAP集群。将本地ONTAP系统添加到NetApp控制台，您可以从单个界面管理所有存储和数据资产。 
+summary: 您可以从NetApp Console管理在AFF/ FAS控制器和ONTAP Select上运行的ONTAP集群。将本地ONTAP系统添加到NetApp Console，您可以从单个界面管理所有存储和数据资产。 
 ---
-= 了解NetApp控制台中的本地ONTAP集群管理
+= 了解NetApp Console中的本地ONTAP集群管理
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,17 +14,17 @@ summary: 您可以从NetApp控制台管理在AFF/ FAS控制器和ONTAP Select上
 
 
 [role="lead"]
-您可以从NetApp控制台管理在AFF/ FAS控制器和ONTAP Select上运行的ONTAP集群。将本地ONTAP系统添加到控制台使您能够集中管理所有存储和数据资产。
+您可以从NetApp Console管理在AFF/ FAS控制器和ONTAP Select上运行的ONTAP集群。将本地ONTAP系统添加到控制台使您能够集中管理所有存储和数据资产。
 
 
 
-== NetApp控制台
+== NetApp Console
 
-NetApp控制台提供企业级跨本地和云环境的NetApp存储和数据服务的集中管理。需要控制台才能访问和使用NetApp数据服务。作为管理界面，它使您能够从一个界面管理许多存储资源。控制台管理员可以控制企业内所有系统的存储和服务的访问。
+NetApp Console提供企业级跨本地和云环境的NetApp存储和数据服务的集中管理。需要控制台才能访问和使用NetApp数据服务。作为管理界面，它使您能够从一个界面管理许多存储资源。控制台管理员可以控制企业内所有系统的存储和服务的访问。
 
-您不需要许可证或订阅即可开始使用NetApp控制台，并且只有当您需要在云中部署控制台代理以确保与存储系统或NetApp数据服务的连接时才需要付费。但是，一些可从控制台访问的NetApp数据服务是需要许可或基于订阅的。
+您不需要许可证或订阅即可开始使用NetApp Console，并且只有当您需要在云中部署控制台代理以确保与存储系统或NetApp数据服务的连接时才需要付费。但是，一些可从控制台访问的NetApp数据服务是需要许可或基于订阅的。
 
-详细了解 https://docs.netapp.com/us-en/console-setup-admin/concept-overview.html["NetApp控制台"]。
+详细了解 https://docs.netapp.com/us-en/console-setup-admin/concept-overview.html["NetApp Console"]。
 
 
 
@@ -47,5 +47,5 @@ NetApp控制台提供企业级跨本地和云环境的NetApp存储和数据服�
 +
 您可以在云端或本地安装控制台代理。在云中安装控制台代理需要花费成本。
 
-* 无论您使用NetApp数据服务（例如NetApp Backup and Recovery、 NetApp Ransomware Resilience 等）。
+* 无论您使用NetApp数据服务（例如NetApp Backup and Recovery、 NetApp Ransomware Resilience等）。
 
