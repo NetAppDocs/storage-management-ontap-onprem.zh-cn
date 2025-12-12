@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-discovering-ontap.html 
-keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, roles, dubscriptions, licenses, digital advisor 
+keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, roles, subscriptions, licenses, digital advisor 
 summary: 从NetApp Console发现本地ONTAP集群，以便您可以开始使用控制台提供的ONTAP系统管理器管理卷并执行高级管理。 
 ---
 = 在NetApp Console中发现本地ONTAP集群
@@ -25,7 +25,7 @@ summary: 从NetApp Console发现本地ONTAP集群，以便您可以开始使用�
 
 您可以通过两种方式将本地ONTAP集群添加到控制台。您选择的方式取决于您的组织中是否安装了控制台代理：
 
-使用控制台代理进行发现和管理:: 此选项允许您使用以下功能管理运行ONTAP 8.3 及更高版本的集群：
+使用控制台代理进行发现和管理:: 此选项允许您使用以下功能管理运行ONTAP 的集群：
 +
 --
 * 通过NetApp Console本地提供基本卷操作
@@ -135,7 +135,7 @@ summary: 从NetApp Console发现本地ONTAP集群，以便您可以开始使用�
 
 . 选择*发现*。
 +
-如果您没有控制台代理，并且无法从控制台访问 IP 地址，则系统会提示您创建控制台代理。如果您没有控制台代理，请联系控制台管理员来创建一个。
+如果您没有控制台代理，并且无法从控制台访问 IP 地址，系统会提示您创建控制台代理。如果您没有控制台代理，请联系控制台管理员来创建一个。
 
 
 
