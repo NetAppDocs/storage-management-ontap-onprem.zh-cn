@@ -27,6 +27,7 @@ image:screenshot-connector-we.png["使用控制台代理发现集群时出现的
 
 
 
+[[create-flexvol-volumes-from-the-netapp-console]]
 == 从NetApp Console创建FlexVol卷
 
 使用控制台代理将本地ONTAP集群添加到控制台后，您可以直接从控制台配置和管理FlexVol卷。
@@ -80,6 +81,7 @@ image:screenshot-connector-we.png["使用控制台代理发现集群时出现的
 
 
 
+[[create-flexgroup-volumes-with-the-netapp-console-api]]
 == 使用NetApp ConsoleAPI 创建FlexGroup卷
 
 您可以使用NetApp ConsoleAPI 来创建FlexGroup卷。  FlexGroup卷是一种横向扩展卷，可提供高性能以及自动负载分配。
@@ -90,12 +92,14 @@ image:screenshot-connector-we.png["使用控制台代理发现集群时出现的
 
 
 
+[[access-ontap-system-manager-from-netapp-console]]
 == 从NetApp Console访问ONTAP系统管理器
 
 您可以直接在控制台内访问ONTAP系统管理器界面。
 
 
 
+[[features]]
 === 功能
 
 当您从控制台访问ONTAP系统管理器时，您可以访问其他管理功能：
@@ -124,6 +128,7 @@ image:screenshot-connector-we.png["使用控制台代理发现集群时出现的
 
 
 
+[[supported-configurations]]
 === 支持的配置
 
 运行 9.10.0 或更高版本的本地ONTAP集群支持通过系统管理器进行高级管理。
@@ -132,6 +137,7 @@ GovCloud 区域或没有出站互联网访问的区域不支持系统管理器�
 
 
 
+[[limitations]]
 === 限制
 
 通过控制台访问ONTAP系统管理器时，本地ONTAP集群不支持某些系统管理器功能。
@@ -140,6 +146,7 @@ link:reference-limitations.html["查看限制列表"] 。
 
 
 
+[[access-ontap-system-manager-from-netapp-console]]
 === 从NetApp Console访问ONTAP系统管理器
 
 打开系统的系统管理器。
@@ -154,6 +161,7 @@ link:reference-limitations.html["查看限制列表"] 。
 
 
 
+[[get-help-with-system-manager]]
 === 获取系统管理器帮助
 
 如果您需要帮助使用带有ONTAP的 System Manager，您可以参考 https://docs.netapp.com/us-en/ontap/index.html["ONTAP 文档"^]以获得分步说明。以下几个链接可能会有所帮助：
@@ -165,6 +173,7 @@ link:reference-limitations.html["查看限制列表"] 。
 
 
 
+[[enable-netapp-data-services]]
 == 启用NetApp数据服务
 
 在您的系统上启用NetApp数据服务来复制数据、备份数据、分层数据等。

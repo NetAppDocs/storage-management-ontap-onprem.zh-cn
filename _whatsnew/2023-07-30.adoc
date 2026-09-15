@@ -4,6 +4,7 @@
 
 
 
+[[create-flexgroup-volumes]]
 === 创建FlexGroup卷
 
 如果您使用连接器管理集群，则现在可以使用BlueXP API 创建FlexGroup卷。

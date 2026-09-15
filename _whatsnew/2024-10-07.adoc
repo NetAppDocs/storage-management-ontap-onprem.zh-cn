@@ -4,6 +4,7 @@
 
 
 
+[[support-for-asa-r2-systems]]
 === 支持ASA r2 系统
 
 现在，在标准模式或受限模式下使用BlueXP时，您可以在BlueXP中发现NetApp ASA r2 系统。发现NetApp ASA r2 系统并打开工作环境后，您将直接进入系统管理器。

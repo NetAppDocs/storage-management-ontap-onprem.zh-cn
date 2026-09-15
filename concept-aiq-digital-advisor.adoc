@@ -18,6 +18,7 @@ NetApp Digital Advisor 使您能够优化ONTAP集群的操作、安全性和性�
 
 
 
+[[features]]
 == 功能
 
 您可以使用Digital Advisor查看存储系统的整体状态、有关系统健康状况的高级信息、库存、计划、升级以及监视列表级别的宝贵见解。
@@ -32,12 +33,14 @@ NetApp Digital Advisor 使您能够优化ONTAP集群的操作、安全性和性�
 
 
 
+[[supported-ontap-systems]]
 == 支持的ONTAP系统
 
 Digital Advisor提供与您的NetApp支持站点 (NSS) 帐户关联的所有本地ONTAP系统和Cloud Volumes ONTAP系统的信息。
 
 
 
+[[more-information]]
 == 更多信息
 
 https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html["Digital Advisor文档"^]

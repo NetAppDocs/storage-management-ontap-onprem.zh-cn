@@ -21,6 +21,7 @@ summary: 从NetApp Console发现本地ONTAP集群，以便您可以开始使用�
 
 
 
+[[step-1-review-discovery-and-management-options]]
 == 步骤 1：查看发现和管理选项
 
 您可以通过两种方式将本地ONTAP集群添加到控制台。您选择的方式取决于您的组织中是否安装了控制台代理：
@@ -51,6 +52,7 @@ summary: 从NetApp Console发现本地ONTAP集群，以便您可以开始使用�
 
 
 
+[[step-2-set-up-your-environment]]
 == 第 2 步：设置环境
 
 在发现本地ONTAP集群之前，请确保您已满足以下要求。
@@ -103,6 +105,7 @@ summary: 从NetApp Console发现本地ONTAP集群，以便您可以开始使用�
 
 
 
+[[step-3-discover-a-cluster]]
 == 步骤 3：发现集群
 
 通过以下两种方式之一从控制台发现您的本地ONTAP集群：
