@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-view-cluster-info.html 
 keywords: software contract, hardware contract, contracts, expiration date, expired, software contract 
-summary: 您可以从“订阅和许可证”页面查看每个本地ONTAP集群的合同详情。 
+summary: 您可以从订阅和许可证页面查看每个本地 ONTAP 群集的合同详细信息。 
 ---
 = 查看集群信息和合约详情
 :hardbreaks:

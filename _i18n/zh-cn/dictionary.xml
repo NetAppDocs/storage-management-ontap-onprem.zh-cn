@@ -560,4 +560,5 @@
   <block id="7019a39846e9a2c7f7a80eaba91e4a41" category="paragraph"><block ref="7019a39846e9a2c7f7a80eaba91e4a41" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1d593c3f7480ada9580d93cd753c3f93" category="paragraph">这是一个系统生成的 ID，映射到您的电子邮件。在 *NSS Management* 页面上，您可以从 <block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 菜单中显示您的电子邮件。</block>
   <block id="872eaae7deb6035c20f9bfe6deefd03d" category="list-text">如果您需要刷新登录凭据令牌，<block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 菜单中还有 *Update Credentials* 选项。</block>
+  <block id="0e73bcc1150ea290623f3baa4a8d76c6" category="summary">您可以从订阅和许可证页面查看每个本地 ONTAP 群集的合同详细信息。</block>
 </blocks>
